@@ -1,0 +1,16 @@
+.blog-page{
+    margin: 10px;
+
+    &__add {
+        display: flex;
+        justify-content: flex-end;
+
+        > .ui.button {
+            margin: 0;
+        }
+    }
+
+    .ui.menu.secondary {
+        min-height: 0px;
+    }
+}
